@@ -102,6 +102,19 @@ Open ```baseball.py``` and type (or copy):
 print("Hello, baseball Python!")
 ```
 ### Step 5.2 
+
+> 💡 you will need to add the Python extension in VSCode. It should prompt you when adding a python file.
+
+In VS Code:
+1. Click the Extensions icon on the left sidebar
+2. Search for Python
+3. Install Python
+
+This extension gives us:
+- Syntax highlighting
+- Helpful error messages
+- Easy run buttons
+
 Run your file either in VSCode or in Terminal. 
 
 In VSCode, select Run. The intergrated terminal should open and you should see: 
