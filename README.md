@@ -35,12 +35,15 @@ After it finishes, let's verify that it was installed by checking the version.
 ```brew install python```
 
 Verify: 
-```python3 --version
-    pip3 --version
+
+```bash
+python3 --version
+pip3 --version
 ```
 
 We should see something like this: 
 
-```Python 3.12.x
-    pip 23.x
+```bash
+Python 3.12.x
+pip 23.x
 ```
