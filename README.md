@@ -181,7 +181,6 @@ print(df)
 
 Run it and you should see the following output: 
 
-```bash
 | player        | hits           | at_bats  | average|
 | ------------- |:-------------:| :-----:|
 | Judge     | 2 | 4 | 0.500000
