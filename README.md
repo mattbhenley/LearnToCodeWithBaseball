@@ -66,3 +66,23 @@ touch batting_average.py
 
 💥 You created your first python file! Congrats. 
 
+## Step 4: Choose an editor (VS Code is recommended) 
+
+Install VSCode 
+
+Download from ![vscodelink](https://code.visualstudio.com)
+
+Once downloaded, we can open up our project. 
+
+In your terminal window, we can simply type: 
+
+```bash
+code .
+``` 
+
+The project should open in VSCode. 
+
+You can also open VSCode, select Open and select your ```baseball_pyhton``` folder. 
+
+*** If ```code``` doesn't work, ```Cmd + Shift + P``` -> Shell Command: Install 'Code' command ***
+
