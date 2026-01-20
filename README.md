@@ -70,7 +70,7 @@ touch batting_average.py
 
 Install VSCode 
 
-Download from [vscodelink](https://code.visualstudio.com)
+Download from [VSCode](https://code.visualstudio.com)
 
 Once downloaded, we can open up our project. 
 
