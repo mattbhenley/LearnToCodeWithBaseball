@@ -144,7 +144,7 @@ Python really shines when working with data, and baseball is full of it.
 
 We’ll install a few libraries that help us work with stats.
 
-### Step 6.2 
+### Step 6.2: Install the libraries 
 ```bash
 pip install pandas numpy matplotlib
 ```
@@ -153,3 +153,32 @@ what these do:
 * **pandas** → tables of player stats
 * **numby** → math and calculations
 * **matplotlib** → charts and graphs
+
+## Steph 6.3: Quick Test 
+
+Create a new file: 
+
+```bash
+touch stats.py
+```
+
+Open it and add: 
+
+```python
+import pandas as pd
+
+data = {
+    "player": ["Judge", "Ohtani", "Trout"],
+    "hits": [2, 3, 1],
+    "at_bats": [4, 5, 3]
+}
+
+df = pd.DataFrame(data)
+df["average"] = df["hits"] / df["at_bats"]
+
+print(df)
+```
+
+Run it and you should see the following output: 
+
+
