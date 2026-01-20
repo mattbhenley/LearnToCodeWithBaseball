@@ -3,6 +3,12 @@ love baseball? Want to code? Start here. Using Python and baseball's biggest sta
 
 > This project is in progress and open to feedback. 💡
 
+**Why Python?** 
+
+Python is one of the easiest programming languages to read and write, which makes it perfect for learning to code for the first time. Python is also lightweight and great for data - Python doesn’t force you to memorize lots of symbols. You focus on what you want to do, not how complicated the language is.
+
+Python is like learning the rules of baseball before learning advanced analytics — it builds a foundation you can grow on.
+
 ## Step 1: Check if Python is already installed (macOS)
 Open Terminal
 
