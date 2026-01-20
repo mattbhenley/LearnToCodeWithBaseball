@@ -111,9 +111,9 @@ In VS Code:
 3. Install Python
 
 This extension gives us:
-- Syntax highlighting
-- Helpful error messages
-- Easy run buttons
+* Syntax highlighting
+* Helpful error messages
+* Easy run buttons
 
 Run your file either in VSCode or in Terminal. 
 
@@ -134,8 +134,22 @@ You'll then see:
 🎉 That’s it. You just ran your first Python file.
 
 **Why this matters** 
-- ```print()``` shows output
-- ```.py``` files are Python programs
-- ```python3 filename.py``` runs the file in Terminal
+* ```print()``` shows output
+* ```.py``` files are Python programs
+* ```python3 filename.py``` runs the file in Terminal
 
+## Step 6: Install Baseball-Friendly Libaries 
 
+Python really shines when working with data, and baseball is full of it.
+
+We’ll install a few libraries that help us work with stats.
+
+### Step 6.2 
+```bash
+pip install pandas numpy matplotlib
+```
+
+what these do: 
+* **pandas** → tables of player stats
+* **numby** → math and calculations
+* **matplotlib** → charts and graphs
