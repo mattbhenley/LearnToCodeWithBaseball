@@ -86,7 +86,7 @@ The project should open in VSCode.
 
 You can also open VSCode, select Open and select your ```baseball.py``` file. 
 
-*** If ```code``` doesn't work, ```Cmd + Shift + P``` -> Shell Command: Install 'Code' command ***
+**If ```code``` doesn't work, ```Cmd + Shift + P``` -> Shell Command: Install 'Code' command**
 
 ## Step 5: Run your first Python program 
 
@@ -114,7 +114,7 @@ You'll then see:
 
 🎉 That’s it. You just ran your first Python file.
 
-*** Why this matters *** 
+**Why this matters** 
 - ```print()``` shows output
 - ```.py``` files are Python programs
 - ```python3 filename.py``` runs the file in Terminal
