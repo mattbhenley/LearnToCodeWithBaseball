@@ -117,7 +117,7 @@ This extension gives us:
 
 Run your file either in VSCode or in Terminal. 
 
-In VSCode, select Run. The intergrated terminal should open and you should see: 
+In VSCode, select ▶Run. The intergrated terminal should open and you should see: 
 
 ```Hello, baseball Python!```
 
