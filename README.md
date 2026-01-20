@@ -13,6 +13,7 @@ Run:
 What you’ll see
 
 ✅ Python 3.x.x → Python is installed
+
 ❌ command not found → we’ll install it
 macOS ships with a system Python sometimes — we do NOT use python, only python3.
 
