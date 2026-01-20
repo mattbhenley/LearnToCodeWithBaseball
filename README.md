@@ -103,7 +103,7 @@ print("Hello, baseball Python!")
 ```
 ### Step 5.2 
 
-> 💡 you will need to add the Python extension in VSCode. It should prompt you when adding a python file.
+> ❗️ you will need to add the Python extension in VSCode. It should prompt you when adding a python file.
 
 In VS Code:
 1. Click the Extensions icon on the left sidebar
