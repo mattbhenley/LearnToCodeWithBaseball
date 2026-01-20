@@ -47,3 +47,22 @@ We should see something like this:
 Python 3.12.x
 pip 23.x
 ```
+## Step 3: Set up project folder 
+
+In terminal, first, we'll navigate to our Desktop. (alternatively, we can use another location but for beginners, I recommed Desktop)
+
+```bash
+mkdir baseball_python
+cd baseball_python
+```
+
+```cd``` changes our directory to baseball_pyhton 
+
+Create our first file: 
+
+```bash
+touch batting_average.py
+```
+
+💥 You created your first python file! Congrats. 
+
