@@ -63,7 +63,7 @@ cd baseball_python
 Create our first file: 
 
 ```bash
-touch batting_average.py
+touch baseball.py
 ```
 
 💥 You created your first python file! Congrats. 
@@ -84,7 +84,39 @@ code .
 
 The project should open in VSCode. 
 
-You can also open VSCode, select Open and select your ```baseball_pyhton``` folder. 
+You can also open VSCode, select Open and select your ```baseball.py``` file. 
 
 *** If ```code``` doesn't work, ```Cmd + Shift + P``` -> Shell Command: Install 'Code' command ***
+
+## Step 5: Run your first Python program 
+
+Open ```baseball.py``` and type (or copy): 
+
+```python
+print("Hello, baseball Python!")
+```
+### Step 5.2 
+Run your file either in VSCode or in Terminal. 
+
+In VSCode, select Run. The intergrated terminal should open and you should see: 
+
+```Hello, baseball Python!```
+
+Or in Terminal, type: 
+
+```bash 
+python3 baseball.py
+```
+
+You'll then see: 
+
+```Hello, baseball Python!```
+
+🎉 That’s it. You just ran your first Python file.
+
+*** Why this matters *** 
+- ```print()``` shows output
+- ```.py``` files are Python programs
+- ```python3 filename.py``` runs the file in Terminal
+
 
