@@ -187,3 +187,7 @@ Run it and you should see the following output:
 | Ohtani| 3    | 5       | 0.600           |
 | Trout | 1    | 3       | 0.333           |
 
+👏 Now we're ready to code with baseball ⚾️
+
+
+
