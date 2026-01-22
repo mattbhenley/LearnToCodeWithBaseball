@@ -408,16 +408,16 @@ hits = 2
 
 **Remember:** 
 
-*Quotes = text
+* Quotes = text
 
-*No quotes = number
+* No quotes = number
 
 **Key takeaways**
 
-*Strings = text (names, teams, positions)
+* Strings = text (names, teams, positions)
 
-*Integers = whole numbers (hits, at-bats)
+* Integers = whole numbers (hits, at-bats)
 
-*Floats = decimals (averages)
+* Floats = decimals (averages)
 
-*Python needs correct data types to do math
+* Python needs correct data types to do math
