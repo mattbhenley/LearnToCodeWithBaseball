@@ -421,3 +421,128 @@ hits = 2
 * Floats = decimals (averages)
 
 * Python needs correct data types to do math
+  
+## Step 9: Lists (storing a roster) 
+
+So far, we’ve worked with one player at a time.
+But baseball is a team sport — we need a way to store multiple players together.
+
+That’s where **lists** come in.
+
+**Creating a List** 
+
+```python
+players = ["Judge", "Ohtani", "Trout"]
+```
+
+Things to remember:
+
+* Lists use square brackets []
+  
+* Items are separated by commas
+  
+* Order matters
+
+**Accessing items in a list**
+
+Each item in a list has a position called an index.
+Indexes start at 0, not 1.
+
+```python
+print(players[0])
+print(players[1])
+print(players[2])
+```
+
+Output:
+
+```nginx
+Judge
+Ohtani
+Trout
+```
+
+**Adding players to a list**
+
+You can add a new player to the roster using .```append()``` :
+
+```python
+players.append("Betts")
+print(players)
+```
+
+Output:
+
+```css
+['Judge', 'Ohtani', 'Trout', 'Betts']
+```
+
+**Counting players on the roster**
+
+To see how many players are in the list, use ```len()``` :
+
+```python
+print(len(players))
+```
+
+Output: 
+
+```nginx
+4
+```
+
+**Lists of numbers (baseball stats)**
+
+Lists aren’t just for names — they’re great for stats too:
+
+```python
+hits = [2, 3, 1]
+at_bats = [4, 5, 3]
+```
+
+Each position lines up with the same player:
+
+* ```hits[0]``` → Judge
+  
+* ```hits[1]``` → Ohtani
+
+* ```hits[2]``` → Trout
+
+**Using list values in calculations** 
+
+```pyhton
+average = hits[0] / at_bats[0]
+print(average)
+```
+
+Output:
+
+```nginx
+0.5
+```
+
+**Common beginner mistakes 🚨**
+
+❌ Using parentheses instead of brackets:
+
+```python
+players = ("Judge", "Ohtani", "Trout")
+```
+
+❌ Forgetting indexes start at 0:
+
+```python
+print(players[1])
+```
+
+(This prints the second player, not the first.)
+
+**Key takeaways**
+
+* Lists store multiple values
+
+* Lists use square brackets
+
+* Indexes start at 0
+  
+* Lists are perfect for rosters and stat groups
