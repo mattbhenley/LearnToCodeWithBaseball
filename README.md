@@ -213,9 +213,7 @@ at_bats = 4
 Here's what's happening:
 
 * ```player_name``` stores text (a string)
-
 * ```hits``` stores a number
-
 * ```at_bats```` stores a number
 
 **Using variables together** 
@@ -266,11 +264,8 @@ Everything else updates automatically.
 **Takeaways** 
 
 * Variables store information
-
 * Numbers don’t need quotes
-
 * Text does need quotes
-
 * Variables make stats reusable and flexible
 
 ## Step 8: Data Types (Strings vs Numbers)
@@ -282,9 +277,7 @@ These are called data types.
 For now, we’ll focus on the two most important ones:
 
 * **Strings** (text)
-
 * **Numbers** (integers and decimals)
-
 **Strings (text)** 
 
 A string is any text wrapped in quotes.
@@ -409,17 +402,13 @@ hits = 2
 **Remember:** 
 
 * Quotes = text
-
 * No quotes = number
 
 **Key takeaways**
 
 * Strings = text (names, teams, positions)
-
 * Integers = whole numbers (hits, at-bats)
-
 * Floats = decimals (averages)
-
 * Python needs correct data types to do math
   
 ## Step 9: Lists (storing a roster) 
@@ -438,9 +427,7 @@ players = ["Judge", "Ohtani", "Trout"]
 Things to remember:
 
 * Lists use square brackets []
-  
 * Items are separated by commas
-  
 * Order matters
 
 **Accessing items in a list**
@@ -503,9 +490,7 @@ at_bats = [4, 5, 3]
 Each position lines up with the same player:
 
 * ```hits[0]``` → Judge
-  
 * ```hits[1]``` → Ohtani
-
 * ```hits[2]``` → Trout
 
 **Using list values in calculations** 
@@ -540,9 +525,6 @@ print(players[1])
 **Key takeaways**
 
 * Lists store multiple values
-
 * Lists use square brackets
-
 * Indexes start at 0
-  
 * Lists are perfect for rosters and stat groups
