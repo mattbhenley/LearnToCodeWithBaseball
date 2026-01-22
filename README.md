@@ -235,3 +235,40 @@ When we run the file, you should see:
 Judge
 0.5
 ```
+
+**Making the output easier to read**
+
+Python lets us format output so it looks nicer:
+
+```python 
+print(f"{player_name}'s batting average is {batting_average:.3f}")
+```
+
+Output: 
+```vbnet 
+Judge's batting average is 0.500
+```
+
+Why Variables matter: 
+
+* Store baseball stats
+* Reuse values
+* Change data without rewriting code
+
+If Judge gets another hit, we only change one number:
+
+```python 
+hits = 3
+```
+
+Everything else updates automatically. 
+
+**Takeaways** 
+
+* Variables store information
+
+* Numbers don’t need quotes
+
+* Text does need quotes
+
+* Variables make stats reusable and flexible
