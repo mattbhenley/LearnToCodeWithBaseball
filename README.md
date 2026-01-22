@@ -393,6 +393,7 @@ Output:
 ```
 
 Common beginner mistake 🚨
+
 ❌ This looks right but is wrong:
 
 ```python
