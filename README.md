@@ -272,3 +272,151 @@ Everything else updates automatically.
 * Text does need quotes
 
 * Variables make stats reusable and flexible
+
+## Step 8: Data Types (Strings vs Numbers)
+
+Python needs to know what kind of data it’s working with.
+
+These are called data types.
+
+For now, we’ll focus on the two most important ones:
+
+* **Strings** (text)
+
+* **Numbers** (integers and decimals)
+
+**Strings (text)** 
+
+A string is any text wrapped in quotes.
+
+Baseball examples:
+
+```python
+player_name = "Judge"
+team = "Yankees"
+position = "RF"
+```
+
+Key rule: 
+
+* Strings must be inside quotes (" " or ' ')
+
+If you forget the quotes, Python thinks it’s a variable and will throw an error.
+
+**Numbers** 
+
+Numbers are used for math and do **NOT** use quotes.
+
+```python
+hits = 2
+at_bats = 4
+batting_average = 0.500
+```
+
+There are two main number types you’ll see:
+
+**Integers (whole numbers)**
+```python
+hits = 2
+at_bats = 4
+```
+
+**Floats (decimals)**
+```python
+batting_average = 0.500
+```
+
+**Why data types matter**
+
+Python treats strings and numbers very differently.
+
+This works (math with numbers):
+
+```python
+hits = 2
+at_bats = 4
+print(hits / at_bats)
+```
+
+Output:
+
+```nginx
+0.5
+```
+
+This does NOT work (math with strings):
+
+```python
+hits = "2"
+at_bats = "4"
+print(hits / at_bats)
+```
+
+❌ Python will error because text can’t be divided.
+
+**Mixing strings and numbers (the right way)**
+
+If you want to print text and numbers together, use an f-string:
+
+```python
+player_name = "Judge"
+hits = 2
+at_bats = 4
+
+average = hits / at_bats
+
+print(f"{player_name} has a batting average of {average:.3f}")
+```
+
+Output:
+
+```nginx
+Judge has a batting average of 0.500
+```
+
+**Checking a variable’s data type**
+
+You can ask Python what type something is:
+
+```python
+print(type(player_name))
+print(type(hits))
+print(type(average))
+```
+
+Output:
+
+```kotlin
+<class 'str'>
+<class 'int'>
+<class 'float'>
+```
+
+Common beginner mistake 🚨
+❌ This looks right but is wrong:
+
+```python
+hits = "2"
+```
+
+✅ This is correct:
+
+```pyhton
+hits = 2
+```
+
+**Remember:** 
+
+*Quotes = text
+
+*No quotes = number
+
+**Key takeaways**
+
+*Strings = text (names, teams, positions)
+
+*Integers = whole numbers (hits, at-bats)
+
+*Floats = decimals (averages)
+
+*Python needs correct data types to do math
