@@ -189,5 +189,49 @@ Run it and you should see the following output:
 
 👏 Now we're ready to code with baseball ⚾️
 
+## Step 7: Variables (using Baseball stats) 
 
+Before we can do anything interesting in Python, we need to understand variables.
 
+**What is a variable?**
+
+A variable is a named container that stores a value.
+
+In baseball terms:
+*A stat (hits, at-bats, runs) is a value
+
+*The stat name is the variable
+
+Example: open ```baseball.py``` and replace the code with this: 
+
+```python
+player_name = "Judge"
+hits = 2
+at_bats = 4
+```
+
+Here's what's happening:
+
+* ```player_name``` stores text (a string)
+
+* ```hits``` stores a number
+
+* ```at_bats```` stores a number
+
+**Using variables together** 
+
+Now let’s calculate a batting average:
+
+```python
+batting_average = hits / at_bats
+
+print(player_name)
+print(batting_average)
+```
+
+When we run the file, you should see: 
+
+```nginx
+Judge
+0.5
+```
