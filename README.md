@@ -1,6 +1,6 @@
 <img src="img/python_baseball.png" width="300"/>
 
-# Learn To Code With Baseball ⚾️ 🏟️ 🧢
+# Learn To Code With Baseball
 love baseball? Want to code? Start here. Using Python and baseball's biggest stars and stats, we'll learn variables, loops, lists, and more! 
 
 > This project is in progress and open to feedback. 💡
