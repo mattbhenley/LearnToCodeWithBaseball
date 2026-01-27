@@ -1,4 +1,4 @@
-<img src="img/python_baseball.png>" width="200" />
+<img src="img/python_baseball.png" width="300"/>
 
 # LearnToCodeWithBaseball ⚾️ 🏟️ 🧢
 love baseball? Want to code? Start here. Using Python and baseball's biggest stars and stats, we'll learn variables, loops, lists, and more! 
