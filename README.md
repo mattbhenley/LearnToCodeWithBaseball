@@ -571,4 +571,36 @@ Things to notice:
 
 * Keys are strings
 
-* Each key maps to a value using :
+* Each key maps to a value using **:**
+
+**Accessing values in a dictionary**
+
+You access values by using the key name:
+
+```python
+print(player["name"])
+print(player["hits"])
+print(player["at_bats"])
+```
+
+Output: 
+
+```nginx
+Judge
+2
+4
+```
+
+**Using dictionary values in calculations**
+
+```python
+average = player["hits"] / player["at_bats"]
+print(average)
+```
+
+Output: 
+
+```nginx
+0.5
+```
+Now the code clearly shows what stat is being used.
