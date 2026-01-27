@@ -528,3 +528,47 @@ print(players[1])
 * Lists use square brackets
 * Indexes start at 0
 * Lists are perfect for rosters and stat groups
+
+## Step 10: Dictionaries (Player Cards)
+
+Lists are great for storing multiple values, but they don’t tell us what each value represents.
+
+For example, this works:
+
+```python
+hits = [2, 3, 1]
+```
+
+But which number is hits? At-bats? Walks?
+
+That’s where dictionaries come in.
+
+**What is a dictionary?**
+
+A dictionary stores data as key–value pairs.
+
+Think of a dictionary like a player card:
+
+* The key is the stat name
+
+* The value is the stat itself
+
+**Creating a dictionary**
+
+Here’s a dictionary for one player:
+
+```python
+player = {
+    "name": "Judge",
+    "hits": 2,
+    "at_bats": 4
+}
+```
+
+Things to notice:
+
+* Dictionaries use **curly braces { }**
+
+* Keys are strings
+
+* Each key maps to a value using :
