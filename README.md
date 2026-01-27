@@ -606,3 +606,47 @@ Output:
 0.5
 ```
 Now the code clearly shows what stat is being used.
+
+**Updating values**
+
+If a player gets another hit, you can update the dictionary:
+
+```python
+player["hits"] = 3
+```
+
+Recalculate: 
+
+```python
+average = player["hits"] / player["at_bats"]
+print(average)
+```
+
+Output: 
+
+```nginx
+0.75
+```
+
+**Adding new stats**
+
+You can add new key–value pairs at any time:
+
+```python
+player["walks"] = 1
+player["rbi"] = 2
+```
+
+**Common beginner mistakes 🚨**
+
+❌ Forgetting quotes around keys:
+
+```python
+player[hits]
+```
+
+✅ Correct:
+
+```python
+player["hits"]
+```
