@@ -881,3 +881,53 @@ Output:
 0.5
 ```
 
+**Using the function with player data**
+
+```pyhton
+player = {"name": "Judge", "hits": 2, "at_bats": 4}
+
+avg = batting_average(player["hits"], player["at_bats"])
+print(f"{player['name']} average: {avg:.3f}")
+```
+
+Output: 
+
+```yaml
+Judge average: 0.500
+```
+
+**Using functions inside loops**
+
+```python
+roster = [
+    {"name": "Judge", "hits": 2, "at_bats": 4},
+    {"name": "Ohtani", "hits": 3, "at_bats": 5},
+    {"name": "Trout", "hits": 1, "at_bats": 3}
+]
+
+for player in roster:
+    avg = batting_average(player["hits"], player["at_bats"])
+    print(f"{player['name']} average: {avg:.3f}")
+```
+
+Output: 
+
+```yaml
+Judge average: 0.500
+Ohtani average: 0.600
+Trout average: 0.333
+```
+
+**Why functions matter**
+
+Functions:
+* Prevent duplicated code
+* Make programs easier to read
+* Let you change logic in one place
+* Mirror real baseball formulas
+
+**Key takeaways**
+* Functions package logic into reusable blocks
+* Inputs go in parentheses
+* `return` sends data back
+* Functions model real baseball stats
