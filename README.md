@@ -931,3 +931,105 @@ Functions:
 * Inputs go in parentheses
 * `return` sends data back
 * Functions model real baseball stats
+
+## Step 14: Step 15: Multiple Stats (OBP, SLG, OPS)
+
+Batting average is useful, but baseball uses multiple stats to measure performance.
+
+In this step, we’ll:
+* Create multiple stat formulas
+* Use functions for each one
+* Combine stats like real baseball analytics
+
+**The stats we’ll calculate**
+
+We’ll start with three common ones:
+
+Batting Average (BA)
+BA = hits / at_bats
+
+On-Base Percentage (OBP)
+OBP = (hits + walks) / (at_bats + walks)
+
+
+Slugging Percentage (SLG)
+SLG = total_bases / at_bats
+
+
+OPS
+OPS = OBP + SLG
+
+**Batting Average function (review)**
+
+```python
+def batting_average(hits, at_bats):
+    return hits / at_bats
+```
+
+**On-Base Percentage (OBP)**
+
+```python
+def on_base_percentage(hits, walks, at_bats):
+    return (hits + walks) / (at_bats + walks)
+```
+
+**Slugging Percentage (SLG)**
+
+```python
+def slugging_percentage(total_bases, at_bats):
+    return total_bases / at_bats
+```
+
+**OPS (combining stats)**
+
+```python
+def ops(obp, slg):
+    return obp + slg
+```
+
+**Using the functions with a player**
+
+```python
+player = {
+    "name": "Judge",
+    "hits": 2,
+    "walks": 1,
+    "at_bats": 4,
+    "total_bases": 5
+}
+
+ba = batting_average(player["hits"], player["at_bats"])
+obp = on_base_percentage(player["hits"], player["walks"], player["at_bats"])
+slg = slugging_percentage(player["total_bases"], player["at_bats"])
+player_ops = ops(obp, slg)
+
+print(f"{player['name']} BA: {ba:.3f}")
+print(f"{player['name']} OBP: {obp:.3f}")
+print(f"{player['name']} SLG: {slg:.3f}")
+print(f"{player['name']} OPS: {player_ops:.3f}")
+```
+
+Output: 
+
+```yaml
+Judge BA: 0.500
+Judge OBP: 0.600
+Judge SLG: 1.250
+Judge OPS: 1.850
+```
+
+**Why this matters**
+
+This is real-world programming:
+* Small, focused functions
+* Reusable logic
+* Clear formulas
+* Readable output
+
+This is how analytics code is actually written.
+
+**Key takeaways**
+* One stat = one function
+* Functions can build on each other
+* Code mirrors real baseball formulas
+* This is foundational analytics logic
