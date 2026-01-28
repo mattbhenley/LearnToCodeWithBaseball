@@ -30,7 +30,7 @@ macOS sometimes ships with a system Python — we will ***NOT*** use python, onl
 
 ## Step 2: Install Homebrew (recommended) 
 
-What is Homebrew? Homebrew is a popular, free, open-source package manager for macOS and Linuxthat simplifies installing, updating, and managing software from the command line. 
+What is Homebrew? Homebrew is a popular, free, open-source package manager for macOS and Linux that simplifies installing, updating, and managing software from the command line. 
 
 So to install homebrew, we'll simply copy the following command in our terminal. (Open Terminal appliction) 
 
