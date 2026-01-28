@@ -734,3 +734,109 @@ This pattern is used everywhere:
 * Real-world applications
 
 If you understand this, you’re officially past the beginner line.
+
+## Step 12: For Loops (Simulating an Inning)
+
+So far, we’ve manually accessed players one at a time.
+That doesn’t scale. Baseball has lineups, innings, and seasons.
+
+That’s where for **loops** come in.
+
+**What is a for loop?**
+
+A for loop lets Python repeat an action for each item in a collection.
+
+In baseball terms:
+
+* A lineup = list
+* Each at-bat = one loop
+
+**Basic for loop example**
+
+```python
+players = ["Judge", "Ohtani", "Trout"]
+
+for player in players:
+    print(player)
+```
+
+Output:
+
+```nginx
+Judge
+Ohtani
+Trout
+```
+
+Python reads this as:
+For each player in the list, print the player’s name.”
+
+**Looping through a roster of player stats**
+
+Using our roster from the previous step:
+
+```python
+roster = [
+    {"name": "Judge", "hits": 2, "at_bats": 4},
+    {"name": "Ohtani", "hits": 3, "at_bats": 5},
+    {"name": "Trout", "hits": 1, "at_bats": 3}
+]
+
+for player in roster:
+    average = player["hits"] / player["at_bats"]
+    print(f"{player['name']} average: {average:.3f}")
+```
+
+Output: 
+
+```yaml
+Judge average: 0.500
+Ohtani average: 0.600
+Trout average: 0.333
+```
+
+**Why indentation matters 🚨**
+
+Python uses indentation, not braces. 
+
+This works:
+
+```python
+for player in roster:
+    print(player["name"])
+```
+
+This does NOT:
+
+```python
+for player in roster:
+print(player["name"])
+```
+
+Indentation tells Python what belongs inside the loop.
+
+**Simulating an inning**
+
+Think of a loop like an inning where each batter comes up once:
+
+```python
+batters = ["Judge", "Ohtani", "Trout"]
+
+for batter in batters:
+    print(f"{batter} is at the plate")
+```
+
+Output: 
+
+```csharp
+Judge is at the plate
+Ohtani is at the plate
+Trout is at the plate
+```
+
+**Key takeaways**
+
+* For loops repeat actions
+* Loops work perfectly with lists
+* Indentation matters in Python
+* Loops model real baseball sequences
