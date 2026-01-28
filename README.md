@@ -840,3 +840,44 @@ Trout is at the plate
 * Loops work perfectly with lists
 * Indentation matters in Python
 * Loops model real baseball sequences
+
+## Step 13: Functions (Baseball Formulas)
+
+So far, we’ve written the same calculations more than once.
+In real programming, we don’t want to repeat ourselves.
+
+That’s where functions come in.
+
+**What is a function?**
+
+A function is a reusable block of code that performs a specific task.
+
+In baseball terms:
+* A function is like a stat formula
+* You give it inputs (hits, at-bats)
+* It gives you an output (batting average)
+
+**Your first function**
+
+```python
+def batting_average(hits, at_bats):
+    return hits / at_bats
+```
+
+What this means:
+* `def` starts a function
+* `hits` and `at_bats` are inputs (parameters)
+* `return` sends back a result
+
+**Using the function** 
+
+```python
+avg = batting_average(2, 4)
+print(avg)
+```
+
+Output: 
+```bash
+0.5
+```
+
