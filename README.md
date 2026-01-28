@@ -656,7 +656,6 @@ player["hits"]
 Now we’re going to combine what you’ve learned so far:
 
 * Lists (multiple players)
-
 * Dictionaries (player stats)
 
 This is how you represent a real roster in Python.
@@ -730,11 +729,8 @@ Trout batting average: 0.333
 This pattern is used everywhere:
 
 * Sports analytics
-
 * Databases
-
 * APIs
-
 * Real-world applications
 
 If you understand this, you’re officially past the beginner line.
