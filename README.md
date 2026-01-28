@@ -650,3 +650,91 @@ player[hits]
 ```python
 player["hits"]
 ```
+
+## Step 11: Lists of Dictionaries (A Full Roster)
+
+Now we’re going to combine what you’ve learned so far:
+
+* Lists (multiple players)
+
+* Dictionaries (player stats)
+
+This is how you represent a real roster in Python.
+
+**What are we building**
+
+Instead of one player: 
+
+```python
+player = {"name": "Judge", "hits": 2, "at_bats": 4}
+```
+
+We'll store many players: 
+
+```python
+roster = [
+    {"name": "Judge", "hits": 2, "at_bats": 4},
+    {"name": "Ohtani", "hits": 3, "at_bats": 5},
+    {"name": "Trout", "hits": 1, "at_bats": 3}
+]
+```
+
+Each item in the list is a dictionary representing one player.
+
+**Accessing a player**
+
+```python
+print(roster[0])
+```
+
+Output:
+
+```bash
+{'name': 'Judge', 'hits': 2, 'at_bats': 4}
+```
+
+**Accessing a specific stat**
+
+```python
+print(roster[0]["name"])
+print(roster[0]["hits"])
+```
+
+Output: 
+
+```nginx
+Judge
+2
+```
+
+**Looping through the roster**
+
+This is where Python starts to feel powerful.
+
+```python
+for player in roster:
+    average = player["hits"] / player["at_bats"]
+    print(f"{player['name']} batting average: {average:.3f}")
+```
+
+Output:
+
+```yaml
+Judge batting average: 0.500
+Ohtani batting average: 0.600
+Trout batting average: 0.333
+```
+
+**Why this matters**
+
+This pattern is used everywhere:
+
+* Sports analytics
+
+* Databases
+
+* APIs
+
+* Real-world applications
+
+If you understand this, you’re officially past the beginner line.
